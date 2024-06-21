@@ -15,7 +15,7 @@ public class Config {
     @Value("${server.url}")
     private static String serverUrl;
     public static String vnp_PayUrl = "https://sandbox.vnpayment.vn/paymentv2/vpcpay.html";
-    public static String vnp_ReturnUrl = serverUrl+"/payment-result";
+    public static String vnp_ReturnUrl = "https://drcomputer-f3kh.onrender.com"+"/payment-result";
     public static String vnp_TmnCode = "3RHOEYNC";
     public static String secretKey = "NGNLDRJAWEHXWZNPCZTTRWFYYUVOWHGC";
     public static String vnp_ApiUrl = "https://sandbox.vnpayment.vn/merchant_webapi/api/transaction";
